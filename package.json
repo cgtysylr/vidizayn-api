@@ -1,0 +1,36 @@
+{
+  "name": "vidizayn-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CagatayHakan/vidizayn-api.git"
+  },
+  "author": "Çağatay SÖYLER",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CagatayHakan/vidizayn-api/issues"
+  },
+  "homepage": "https://github.com/CagatayHakan/vidizayn-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "faker": "^6.6.6",
+    "helmet": "^6.0.0",
+    "mongoose": "^6.5.4",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.21.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "nodemon": "^2.0.19"
+  }
+}
